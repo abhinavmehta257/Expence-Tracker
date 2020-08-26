@@ -1,0 +1,54 @@
+body{
+	background: #83a4d4;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#app{
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-soomting:antialised;
+  -moz-osx-font-soothing: grayscale;
+  text-align:center;
+  color: #2c3350;
+  margin-top: 10px;
+}
+.signin-form, .signup-form{
+  width:30%;
+ margin: auto;
+}
+.signOut-btn{
+  position: absolute;
+  text-align: right;
+  top: 60px;
+  right: 40px;
+}
+.save-btn{
+	position: absolute;
+  text-align: right;
+  top: 100px;
+  right: 40px;
+}
+.edit-profile{
+	margin:auto;
+}
+.event-card{
+  border: 2px solid #4fc08d;
+  border-radius: 4px;
+	margin-top: 40px;
+}
+.transaction{
+	padding: 0
+}
+#profile-pic{
+	border-radius: 50%;
+	width: 40%;
+	transition: width 100ms ease-in;
+}
+#profile-pic:hover{
+	width: 41%;
+}
+.ViewProfile-btn{
+	position: absolute;
+	top: 30px;
+  right: 40px;
+}
